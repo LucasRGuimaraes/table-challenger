@@ -2,6 +2,7 @@
   "times": [
     {
       "id": 1,
+      "classificacao": 1,
       "nome": "Botafogo",
       "pontos": 57,
       "jogos": 27,
@@ -11,6 +12,7 @@
     },
     {
       "id": 2,
+      "classificacao": 2,
       "nome": "Internacional",
       "pontos": 49,
       "jogos": 27,
@@ -20,6 +22,7 @@
     },
     {
       "id": 3,
+      "classificacao": 3,
       "nome": "Fluminense",
       "pontos": 48,
       "jogos": 27,
@@ -29,6 +32,7 @@
     },
     {
       "id": 4,
+      "classificacao": 4,
       "nome": "Juventude",
       "pontos": 45,
       "jogos": 27,
@@ -38,6 +42,7 @@
     },
     {
       "id": 5,
+      "classificacao": 5,
       "nome": "Corinthians",
       "pontos": 44,
       "jogos": 27,
@@ -47,6 +52,7 @@
     },
     {
       "id": 6,
+      "classificacao": 6,
       "nome": "Athletico-PR",
       "pontos": 44,
       "jogos": 27,
@@ -56,6 +62,7 @@
     },
     {
       "id": 7,
+      "classificacao": 7,
       "nome": "Atlético-MG",
       "pontos": 40,
       "jogos": 27,
@@ -65,6 +72,7 @@
     },
     {
       "id": 8,
+      "classificacao": 8,
       "nome": "América-MG",
       "pontos": 39,
       "jogos": 27,
@@ -74,6 +82,7 @@
     },
     {
       "id": 9,
+      "classificacao": 9,
       "nome": "Goiás",
       "pontos": 37,
       "jogos": 27,
@@ -83,6 +92,7 @@
     },
     {
       "id": 10,
+      "classificacao": 10,
       "nome": "São Paulo",
       "pontos": 37,
       "jogos": 28,
@@ -92,6 +102,7 @@
     },
     {
       "id": 11,
+      "classificacao": 11,
       "nome": "Palmeiras",
       "pontos": 34,
       "jogos": 27,
@@ -101,6 +112,7 @@
     },
     {
       "id": 12,
+      "classificacao": 12,
       "nome": "Santos",
       "pontos": 34,
       "jogos": 27,
@@ -110,6 +122,7 @@
     },
     {
       "id": 13,
+      "classificacao": 13,
       "nome": "Bragantino",
       "pontos": 34,
       "jogos": 27,
@@ -119,6 +132,7 @@
     },
     {
       "id": 14,
+      "classificacao": 14,
       "nome": "Fortaleza",
       "pontos": 31,
       "jogos": 27,
@@ -128,6 +142,7 @@
     },
     {
       "id": 15,
+      "classificacao": 15,
       "nome": "Ceará",
       "pontos": 31,
       "jogos": 27,
@@ -137,6 +152,7 @@
     },
     {
       "id": 16,
+      "classificacao": 16,
       "nome": "Coritiba",
       "pontos": 28,
       "jogos": 27,
@@ -146,6 +162,7 @@
     },
     {
       "id": 17,
+      "classificacao": 17,
       "nome": "Avaí",
       "pontos": 28,
       "jogos": 27,
@@ -155,6 +172,7 @@
     },
     {
       "id": 18,
+      "classificacao": 18,
       "nome": "Cuiabá",
       "pontos": 27,
       "jogos": 27,
@@ -164,6 +182,7 @@
     },
     {
       "id": 19,
+      "classificacao": 19,
       "nome": "Atlético-GO",
       "pontos": 22,
       "jogos": 27,
@@ -173,6 +192,7 @@
     },
     {
       "id": 20,
+      "classificacao": 20,
       "nome": "Flamengo",
       "pontos": 19,
       "jogos": 27,
