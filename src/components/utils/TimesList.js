@@ -206,8 +206,43 @@ export const serieB = [
 
 export const europa = [
   {
-    name: "América-MG",
-    img: "https://s.sde.globo.com/media/organizations/2019/02/28/America-MG-VERDE-fev2019-01.svg",
-    link: "https://ge.globo.com/futebol/times/america-mg/",
+    name: "Arsenal",
+    img: "https://s.sde.globo.com/media/teams/2018/03/11/arsenal.svg",
+    link: "https://ge.globo.com/futebol/futebol-internacional/futebol-ingles/times/arsenal/",
+  },
+  {
+    name: "Atlético de Madrid",
+    img: "https://s.sde.globo.com/media/organizations/2018/12/18/atletico-madrid-new.svg",
+    link: "https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/times/atletico-de-madrid/",
+  },
+  {
+    name: "Barcelona",
+    img: "https://s.sde.globo.com/media/teams/2018/03/11/barcelona.svg",
+    link: "https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/times/barcelona/",
+  },
+  {
+    name: "Bayern de Munique",
+    img: "https://s.sde.globo.com/media/organizations/2018/03/11/bayern-de-munique.svg",
+    link: "https://ge.globo.com/futebol/futebol-internacional/futebol-alemao/times/bayern-de-munique/",
+  },
+  {
+    name: "Benfica",
+    img: "https://s.sde.globo.com/media/teams/2018/03/11/benfica.svg",
+    link: "https://ge.globo.com/futebol/futebol-internacional/futebol-portugues/times/benfica/",
+  },
+  {
+    name: "Borussia Dortmund",
+    img: "https://s.sde.globo.com/media/teams/2018/03/11/borussia-dortmund.svg",
+    link: "https://ge.globo.com/futebol/futebol-internacional/futebol-alemao/times/borussia-dortmund/",
+  },
+  {
+    name: "Chelsea",
+    img: "https://s.sde.globo.com/media/teams/2018/03/11/chelsea.svg",
+    link: "https://ge.globo.com/futebol/futebol-internacional/futebol-alemao/times/chelsea/",
+  },
+  {
+    name: "Internazionale",
+    img: "https://s.sde.globo.com/media/organizations/2021/03/31/Inter_de_Milão_2021.svg",
+    link: "https://ge.globo.com/futebol/futebol-internacional/futebol-alemao/times/internazionale/",
   },
 ];
