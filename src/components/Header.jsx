@@ -120,8 +120,68 @@ export function Header() {
                     </MenuItem>
                   ))}
                 </TabPanel>
-                <TabPanel value="2">Item Two</TabPanel>
-                <TabPanel value="3">Item Three</TabPanel>
+                <TabPanel
+                  value="2"
+                  sx={{
+                    display: "grid",
+                    gridTemplateColumns: "repeat(4, 1fr)",
+                    padding: "10px",
+                  }}
+                >
+                  {serieB.map((item) => (
+                    <MenuItem>
+                      <Link
+                        href={item.link}
+                        target="_blank"
+                        sx={{
+                          width: "30px",
+                          display: "flex",
+                          justifyContent: "center",
+                          alignItems: "center",
+                        }}
+                      >
+                        <img
+                          height="35px"
+                          src={item.img}
+                          srcSet={item.img}
+                          alt={item.name}
+                          loading="lazy"
+                        />
+                      </Link>
+                    </MenuItem>
+                  ))}
+                </TabPanel>
+                <TabPanel
+                  value="3"
+                  sx={{
+                    display: "grid",
+                    gridTemplateColumns: "repeat(4, 1fr)",
+                    padding: "10px",
+                  }}
+                >
+                  {europa.map((item) => (
+                    <MenuItem>
+                      <Link
+                        href={item.link}
+                        target="_blank"
+                        sx={{
+                          width: "30px",
+                          display: "flex",
+                          justifyContent: "center",
+                          alignItems: "center",
+                        }}
+                      >
+                        <img
+                          height="35px"
+                          src={item.img}
+                          srcSet={item.img}
+                          alt={item.name}
+                          loading="lazy"
+                        />
+                      </Link>
+                    </MenuItem>
+                  ))}
+                </TabPanel>
               </Menu>
             </TabContext>
           </Box>
