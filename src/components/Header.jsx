@@ -3,7 +3,6 @@ import {
   Box,
   Grid,
   IconButton,
-  ImageListItem,
   Link,
   Menu,
   MenuItem,
@@ -14,57 +13,6 @@ import { FiMenu, FiShield } from "react-icons/fi";
 import { LogoGe } from "./LogoGe";
 
 export function Header() {
-  const itemData = [
-    {
-      img: "https://images.unsplash.com/photo-1551963831-b3b1ca40c98e",
-      title: "Breakfast",
-    },
-    {
-      img: "https://images.unsplash.com/photo-1551782450-a2132b4ba21d",
-      title: "Burger",
-    },
-    {
-      img: "https://images.unsplash.com/photo-1522770179533-24471fcdba45",
-      title: "Camera",
-    },
-    {
-      img: "https://images.unsplash.com/photo-1444418776041-9c7e33cc5a9c",
-      title: "Coffee",
-    },
-    {
-      img: "https://images.unsplash.com/photo-1533827432537-70133748f5c8",
-      title: "Hats",
-    },
-    {
-      img: "https://images.unsplash.com/photo-1558642452-9d2a7deb7f62",
-      title: "Honey",
-    },
-    {
-      img: "https://images.unsplash.com/photo-1516802273409-68526ee1bdd6",
-      title: "Basketball",
-    },
-    {
-      img: "https://images.unsplash.com/photo-1518756131217-31eb79b20e8f",
-      title: "Fern",
-    },
-    {
-      img: "https://images.unsplash.com/photo-1597645587822-e99fa5d45d25",
-      title: "Mushrooms",
-    },
-    {
-      img: "https://images.unsplash.com/photo-1567306301408-9b74779a11af",
-      title: "Tomato basil",
-    },
-    {
-      img: "https://images.unsplash.com/photo-1471357674240-e1a485acb3e1",
-      title: "Sea star",
-    },
-    {
-      img: "https://images.unsplash.com/photo-1589118949245-7d38baf380d6",
-      title: "Bike",
-    },
-  ];
-
   const [settingsMenu, setSettingsMenu] = useState(null);
 
   const handleOpenSettingsMenu = (event) => {
@@ -107,11 +55,13 @@ export function Header() {
             </IconButton>
             <Menu
               MenuListProps={{
-                sx: { display: "grid", gridTemplateColumns: "repeat(4, 1fr)" },
+                sx: {
+                  display: "grid",
+                  gridTemplateColumns: "repeat(4, 1fr)",
+                },
               }}
               sx={{
                 mt: "45px",
-
                 width: "100%",
               }}
               PaperProps={{ sx: { width: "300px" } }}
@@ -129,21 +79,14 @@ export function Header() {
               open={Boolean(settingsMenu)}
               onClose={handleCloseSettingsMenu}
             >
-              {itemData.map((item) => (
-                <MenuItem sx={{ width: "10px" }}>
-                  <Link
-                    width={10}
-                    to={item.url}
-                    style={{
-                      textDecoration: "none",
-                      color: "#000000",
-                    }}
-                  >
+              {serieA.map((item) => (
+                <MenuItem>
+                  <Link href={item.link} target="_blank">
                     <img
-                      width={10}
-                      src={`${item.img}?w=164&h=164&fit=crop&auto=format`}
-                      srcSet={`${item.img}?w=164&h=164&fit=crop&auto=format&dpr=2 2x`}
-                      alt={item.title}
+                      height="35px"
+                      src={item.img}
+                      srcSet={item.img}
+                      alt={item.name}
                       loading="lazy"
                     />
                   </Link>
@@ -167,3 +110,106 @@ export function Header() {
     </AppBar>
   );
 }
+
+const serieA = [
+  {
+    name: "América-MG",
+    img: "https://s.sde.globo.com/media/organizations/2019/02/28/America-MG-VERDE-fev2019-01.svg",
+    link: "https://ge.globo.com/futebol/times/america-mg/",
+  },
+  {
+    name: "Athletico-PR",
+    img: "https://s.sde.globo.com/media/organizations/2019/09/09/Athletico-PR.svg",
+    link: "https://ge.globo.com/pr/futebol/times/athletico-pr/",
+  },
+  {
+    name: "Atlético-GO",
+    img: "https://s.sde.globo.com/media/organizations/2020/07/02/atletico-go-2020.svg",
+    link: "https://ge.globo.com/go/futebol/times/atletico-go/",
+  },
+  {
+    name: "Atlético-MG",
+    img: "https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg",
+    link: "https://ge.globo.com/futebol/times/atletico-mg/",
+  },
+  {
+    name: "Avaí",
+    img: "https://s.sde.globo.com/media/organizations/2018/09/04/avai-futebol-clube.svg",
+    link: "https://ge.globo.com/sc/futebol/times/avai/",
+  },
+  {
+    name: "Botafogo",
+    img: "https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg",
+    link: "https://ge.globo.com/futebol/times/botafogo/",
+  },
+  {
+    name: "Bragantino",
+    img: "https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg",
+    link: "https://ge.globo.com/sp/vale-do-paraiba-regiao/futebol/times/bragantino/",
+  },
+  {
+    name: "Ceará",
+    img: "	https://s.sde.globo.com/media/organizations/2019/10/10/ceara.svg",
+    link: "https://ge.globo.com/ce/futebol/times/ceara/",
+  },
+  {
+    name: "Corinthians",
+    img: "https://s.sde.globo.com/media/organizations/2019/09/30/Corinthians.svg",
+    link: "https://ge.globo.com/futebol/times/corinthians/",
+  },
+  {
+    name: "Coritiba",
+    img: "https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg",
+    link: "https://ge.globo.com/pr/futebol/times/coritiba/",
+  },
+  {
+    name: "Cuiabá",
+    img: "https://s.sde.globo.com/media/organizations/2018/12/26/Cuiaba_EC.svg",
+    link: "https://ge.globo.com/mt/futebol/times/cuiaba/",
+  },
+  {
+    name: "Flamengo",
+    img: "https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg",
+    link: "https://ge.globo.com/futebol/times/flamengo/",
+  },
+  {
+    name: "Fluminense",
+    img: "https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg",
+    link: "https://ge.globo.com/futebol/times/fluminense/",
+  },
+  {
+    name: "Fortaleza",
+    img: "https://s.sde.globo.com/media/organizations/2021/09/19/Fortaleza_2021_1.svg",
+    link: "https://ge.globo.com/ce/futebol/times/fortaleza/",
+  },
+  {
+    name: "Goiás",
+    img: "	https://s.sde.globo.com/media/organizations/2021/03/01/GOIAS-2021.svg",
+    link: "https://ge.globo.com/go/futebol/times/goias/",
+  },
+  {
+    name: "Internacional",
+    img: "https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg",
+    link: "https://ge.globo.com/rs/futebol/times/internacional/",
+  },
+  {
+    name: "Juventude",
+    img: "https://s.sde.globo.com/media/organizations/2021/04/29/Juventude-2021-01.svg",
+    link: "https://ge.globo.com/rs/futebol/times/juventude/",
+  },
+  {
+    name: "Palmeiras",
+    img: "https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg",
+    link: "https://ge.globo.com/futebol/times/palmeiras/",
+  },
+  {
+    name: "Santos",
+    img: "https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg",
+    link: "https://ge.globo.com/sp/santos-e-regiao/futebol/times/santos/",
+  },
+  {
+    name: "São Paulo",
+    img: "https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg",
+    link: "https://ge.globo.com/futebol/times/sao-paulo/",
+  },
+];
