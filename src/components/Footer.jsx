@@ -1,5 +1,5 @@
 import { Box, Link, Typography } from "@mui/material";
-import { LogoGe } from "./LogoGe";
+import { LogoGe } from "./utils/LogoGe";
 
 export function Footer() {
     const riscoStyle = {

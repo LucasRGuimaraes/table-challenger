@@ -12,7 +12,7 @@ import {
 import { TabContext, TabList, TabPanel } from "@mui/lab";
 import { useState } from "react";
 import { FiMenu, FiShield } from "react-icons/fi";
-import { LogoGe } from "./LogoGe";
+import { LogoGe } from "./utils/LogoGe";
 import { serieA, serieB, europa } from "./utils/TimesList";
 
 export function Header() {
