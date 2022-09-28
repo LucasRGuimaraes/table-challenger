@@ -1,12 +1,10 @@
 import {
-  Box,
-  Divider,
-  Table,
+  Box, Table,
   TableBody,
   TableCell,
   TableHead,
   TableRow,
-  Typography,
+  Typography
 } from "@mui/material";
 import { useEffect, useState } from "react";
 import { api } from "../services/api";
