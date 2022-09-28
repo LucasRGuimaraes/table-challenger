@@ -94,7 +94,7 @@ export function Header() {
                   sx={{
                     display: "grid",
                     gridTemplateColumns: "repeat(4, 1fr)",
-                    padding: "10px",
+                    padding: 0,
                   }}
                 >
                   {serieA.map((item) => (
@@ -125,7 +125,7 @@ export function Header() {
                   sx={{
                     display: "grid",
                     gridTemplateColumns: "repeat(4, 1fr)",
-                    padding: "10px",
+                    padding: 0,
                   }}
                 >
                   {serieB.map((item) => (
@@ -156,7 +156,7 @@ export function Header() {
                   sx={{
                     display: "grid",
                     gridTemplateColumns: "repeat(4, 1fr)",
-                    padding: "10px",
+                    padding: 0,
                   }}
                 >
                   {europa.map((item) => (

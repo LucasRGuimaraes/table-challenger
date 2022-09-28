@@ -245,4 +245,64 @@ export const europa = [
     img: "https://s.sde.globo.com/media/organizations/2021/03/31/Inter_de_Milão_2021.svg",
     link: "https://ge.globo.com/futebol/futebol-internacional/futebol-alemao/times/internazionale/",
   },
+  {
+    name: "Juventus",
+    img: "https://s.sde.globo.com/media/organizations/2020/12/21/juventus-italia-svg.svg",
+    link: "https://ge.globo.com/futebol/futebol-internacional/futebol-italiano/times/juventus/",
+  },
+  {
+    name: "Liverpool",
+    img: "https://s.sde.globo.com/media/teams/2018/03/12/liverpool.svg",
+    link: "https://ge.globo.com/futebol/futebol-internacional/futebol-ingles/times/liverpool/",
+  },
+  {
+    name: "Lyon",
+    img: "https://s.sde.globo.com/media/organizations/2019/03/10/Olympique_Lyonnais-01.svg",
+    link: "https://ge.globo.com/futebol/futebol-internacional/futebol-frances/times/lyon/",
+  },
+  {
+    name: "Manchester City",
+    img: "https://s.sde.globo.com/media/organizations/2018/03/11/manchester-city.svg",
+    link: "https://ge.globo.com/futebol/futebol-internacional/futebol-ingles/times/manchester-city/",
+  },
+  {
+    name: "Manchester United",
+    img: "https://s.sde.globo.com/media/teams/2018/03/11/manchester-united.svg",
+    link: "https://ge.globo.com/futebol/futebol-internacional/futebol-ingles/times/manchester-united/",
+  },
+  {
+    name: "Milan",
+    img: "https://s.sde.globo.com/media/teams/2018/03/11/milan.svg",
+    link: "https://ge.globo.com/futebol/futebol-internacional/futebol-italiano/times/milan/",
+  },
+  {
+    name: "Napoli",
+    img: "https://s.sde.globo.com/media/organizations/2018/07/30/NAPOLI_SVG.svg",
+    link: "https://ge.globo.com/futebol/futebol-internacional/futebol-italiano/times/napoli/",
+  },
+  {
+    name: "Paris Saint-Germain",
+    img: "https://s.sde.globo.com/media/teams/2018/03/12/paris-saint-germain.svg",
+    link: "https://ge.globo.com/futebol/futebol-internacional/futebol-frances/times/paris-saint-germain/",
+  },
+  {
+    name: "Porto",
+    img: "https://s.sde.globo.com/media/teams/2018/03/12/porto.svg",
+    link: "https://ge.globo.com/futebol/futebol-internacional/futebol-portugues/times/porto/",
+  },
+  {
+    name: "Real Madrid",
+    img: "https://s.sde.globo.com/media/teams/2018/03/12/real-madrid.svg",
+    link: "https://ge.globo.com/futebol/futebol-internacional/futebol-espanhol/times/real-madrid/",
+  },
+  {
+    name: "Roma",
+    img: "https://s.sde.globo.com/media/teams/2018/03/12/roma.svg",
+    link: "https://ge.globo.com/futebol/futebol-internacional/futebol-italiano/times/roma/",
+  },
+  {
+    name: "Tottenham",
+    img: "https://s.sde.globo.com/media/organizations/2018/03/11/tottenham.svg",
+    link: "https://ge.globo.com/futebol/futebol-internacional/futebol-ingles/times/tottenham/",
+  },
 ];
