@@ -1,204 +1,184 @@
 {
-  "times": [
-    {
-      "id": 1,
-      "classificacao": 1,
-      "nome": "Botafogo",
-      "pontos": 57,
-      "jogos": 27,
-      "vitorias": 16,
-      "empates": 9,
-      "derrotas": 2
-    },
-    {
-      "id": 2,
-      "classificacao": 2,
-      "nome": "Internacional",
-      "pontos": 49,
-      "jogos": 27,
-      "vitorias": 13,
-      "empates": 10,
-      "derrotas": 4
-    },
-    {
-      "id": 3,
-      "classificacao": 3,
-      "nome": "Fluminense",
-      "pontos": 48,
-      "jogos": 27,
-      "vitorias": 14,
-      "empates": 6,
-      "derrotas": 7
-    },
-    {
-      "id": 4,
-      "classificacao": 4,
-      "nome": "Juventude",
-      "pontos": 45,
-      "jogos": 27,
-      "vitorias": 13,
-      "empates": 6,
-      "derrotas": 8
-    },
-    {
-      "id": 5,
-      "classificacao": 5,
-      "nome": "Corinthians",
-      "pontos": 44,
-      "jogos": 27,
-      "vitorias": 12,
-      "empates": 8,
-      "derrotas": 7
-    },
-    {
-      "id": 6,
-      "classificacao": 6,
-      "nome": "Athletico-PR",
-      "pontos": 44,
-      "jogos": 27,
-      "vitorias": 12,
-      "empates": 8,
-      "derrotas": 7
-    },
-    {
-      "id": 7,
-      "classificacao": 7,
-      "nome": "Atlético-MG",
-      "pontos": 40,
-      "jogos": 27,
-      "vitorias": 10,
-      "empates": 10,
-      "derrotas": 7
-    },
-    {
-      "id": 8,
-      "classificacao": 8,
-      "nome": "América-MG",
-      "pontos": 39,
-      "jogos": 27,
-      "vitorias": 11,
-      "empates": 6,
-      "derrotas": 10
-    },
-    {
-      "id": 9,
-      "classificacao": 9,
-      "nome": "Goiás",
-      "pontos": 37,
-      "jogos": 27,
-      "vitorias": 9,
-      "empates": 10,
-      "derrotas": 8
-    },
-    {
-      "id": 10,
-      "classificacao": 10,
-      "nome": "São Paulo",
-      "pontos": 37,
-      "jogos": 28,
-      "vitorias": 8,
-      "empates": 13,
-      "derrotas": 7
-    },
-    {
-      "id": 11,
-      "classificacao": 11,
-      "nome": "Palmeiras",
-      "pontos": 34,
-      "jogos": 27,
-      "vitorias": 9,
-      "empates": 7,
-      "derrotas": 11
-    },
-    {
-      "id": 12,
-      "classificacao": 12,
-      "nome": "Santos",
-      "pontos": 34,
-      "jogos": 27,
-      "vitorias": 8,
-      "empates": 10,
-      "derrotas": 9
-    },
-    {
-      "id": 13,
-      "classificacao": 13,
-      "nome": "Bragantino",
-      "pontos": 34,
-      "jogos": 27,
-      "vitorias": 8,
-      "empates": 10,
-      "derrotas": 9
-    },
-    {
-      "id": 14,
-      "classificacao": 14,
-      "nome": "Fortaleza",
-      "pontos": 31,
-      "jogos": 27,
-      "vitorias": 8,
-      "empates": 7,
-      "derrotas": 12
-    },
-    {
-      "id": 15,
-      "classificacao": 15,
-      "nome": "Ceará",
-      "pontos": 31,
-      "jogos": 27,
-      "vitorias": 6,
-      "empates": 13,
-      "derrotas": 8
-    },
-    {
-      "id": 16,
-      "classificacao": 16,
-      "nome": "Coritiba",
-      "pontos": 28,
-      "jogos": 27,
-      "vitorias": 8,
-      "empates": 4,
-      "derrotas": 15
-    },
-    {
-      "id": 17,
-      "classificacao": 17,
-      "nome": "Avaí",
-      "pontos": 28,
-      "jogos": 27,
-      "vitorias": 8,
-      "empates": 4,
-      "derrotas": 15
-    },
-    {
-      "id": 18,
-      "classificacao": 18,
-      "nome": "Cuiabá",
-      "pontos": 27,
-      "jogos": 27,
-      "vitorias": 6,
-      "empates": 9,
-      "derrotas": 12
-    },
-    {
-      "id": 19,
-      "classificacao": 19,
-      "nome": "Atlético-GO",
-      "pontos": 22,
-      "jogos": 27,
-      "vitorias": 5,
-      "empates": 7,
-      "derrotas": 15
-    },
-    {
-      "id": 20,
-      "classificacao": 20,
-      "nome": "Flamengo",
-      "pontos": 19,
-      "jogos": 27,
-      "vitorias": 3,
-      "empates": 10,
-      "derrotas": 14
-    }
-  ]
+    "times": [
+        {
+            "id": 1,
+            "nome": "Botafogo",
+            "pontos": 67,
+            "jogos": 27,
+            "vitorias": 16,
+            "empates": 9,
+            "derrotas": 2
+        },
+        {
+            "id": 2,
+            "nome": "Internacional",
+            "pontos": 49,
+            "jogos": 27,
+            "vitorias": 13,
+            "empates": 10,
+            "derrotas": 4
+        },
+        {
+            "id": 3,
+            "nome": "Fluminense",
+            "pontos": 47,
+            "jogos": 27,
+            "vitorias": 14,
+            "empates": 6,
+            "derrotas": 7
+        },
+        {
+            "id": 4,
+            "nome": "Juventude",
+            "pontos": 45,
+            "jogos": 27,
+            "vitorias": 13,
+            "empates": 6,
+            "derrotas": 8
+        },
+        {
+            "id": 5,
+            "nome": "Corinthians",
+            "pontos": 44,
+            "jogos": 27,
+            "vitorias": 12,
+            "empates": 8,
+            "derrotas": 7
+        },
+        {
+            "id": 6,
+            "nome": "Athletico-PR",
+            "pontos": 44,
+            "jogos": 27,
+            "vitorias": 12,
+            "empates": 8,
+            "derrotas": 7
+        },
+        {
+            "id": 7,
+            "nome": "Atlético-MG",
+            "pontos": 40,
+            "jogos": 27,
+            "vitorias": 10,
+            "empates": 10,
+            "derrotas": 7
+        },
+        {
+            "id": 8,
+            "nome": "América-MG",
+            "pontos": 39,
+            "jogos": 27,
+            "vitorias": 11,
+            "empates": 6,
+            "derrotas": 10
+        },
+        {
+            "id": 9,
+            "nome": "Goiás",
+            "pontos": 37,
+            "jogos": 27,
+            "vitorias": 9,
+            "empates": 10,
+            "derrotas": 8
+        },
+        {
+            "id": 10,
+            "nome": "São Paulo",
+            "pontos": 37,
+            "jogos": 28,
+            "vitorias": 8,
+            "empates": 13,
+            "derrotas": 7
+        },
+        {
+            "id": 11,
+            "nome": "Palmeiras",
+            "pontos": 34,
+            "jogos": 27,
+            "vitorias": 9,
+            "empates": 7,
+            "derrotas": 11
+        },
+        {
+            "id": 12,
+            "nome": "Santos",
+            "pontos": 34,
+            "jogos": 27,
+            "vitorias": 8,
+            "empates": 10,
+            "derrotas": 9
+        },
+        {
+            "id": 13,
+            "nome": "Bragantino",
+            "pontos": 34,
+            "jogos": 27,
+            "vitorias": 8,
+            "empates": 10,
+            "derrotas": 9
+        },
+        {
+            "id": 14,
+            "nome": "Fortaleza",
+            "pontos": 31,
+            "jogos": 27,
+            "vitorias": 8,
+            "empates": 7,
+            "derrotas": 12
+        },
+        {
+            "id": 15,
+            "nome": "Ceará",
+            "pontos": 31,
+            "jogos": 27,
+            "vitorias": 6,
+            "empates": 13,
+            "derrotas": 8
+        },
+        {
+            "id": 16,
+            "nome": "Coritiba",
+            "pontos": 28,
+            "jogos": 27,
+            "vitorias": 8,
+            "empates": 4,
+            "derrotas": 15
+        },
+        {
+            "id": 17,
+            "nome": "Avaí",
+            "pontos": 28,
+            "jogos": 27,
+            "vitorias": 8,
+            "empates": 4,
+            "derrotas": 15
+        },
+        {
+            "id": 18,
+            "nome": "Cuiabá",
+            "pontos": 27,
+            "jogos": 27,
+            "vitorias": 6,
+            "empates": 9,
+            "derrotas": 12
+        },
+        {
+            "id": 19,
+            "nome": "Atlético-GO",
+            "pontos": 22,
+            "jogos": 27,
+            "vitorias": 5,
+            "empates": 7,
+            "derrotas": 15
+        },
+        {
+            "id": 20,
+            "nome": "Flamengo",
+            "pontos": 19,
+            "jogos": 27,
+            "vitorias": 3,
+            "empates": 10,
+            "derrotas": 14
+        }
+    ]
 }
