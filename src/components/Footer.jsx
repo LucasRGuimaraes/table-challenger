@@ -12,7 +12,6 @@ export function Footer() {
         <Box
             component="footer"
             sx={{
-                m: "0px",
                 p: "10px",
                 backgroundColor: "primary.main",
             }}
