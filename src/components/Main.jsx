@@ -24,7 +24,7 @@ export function Main() {
         </Typography>
         {/* <TabelaBrasileirao /> */}
         <TabelaDesafioResolvido />
-        <TabelaDesafio />
+        {/* <TabelaDesafio /> */}
       </Box>
     </Box>
   );
