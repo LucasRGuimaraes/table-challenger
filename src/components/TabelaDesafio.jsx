@@ -1,7 +1,7 @@
-import { Table } from "@mui/material";
+import { useEffect, useState } from "react";
+import { api } from "../services/api";
 
-export function TabelaDesafio() {
-  let colocacao = 1;
+export function TabelaDesafio() { 
   const [times, setTimes] = useState([]);
 
   /* 

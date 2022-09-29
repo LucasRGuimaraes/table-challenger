@@ -4,13 +4,12 @@ import {
   TableCell,
   TableHead,
   TableRow,
-  Typography,
+  Typography
 } from "@mui/material";
 import { useEffect, useState } from "react";
 import { api } from "../services/api";
 
 export function TabelaBrasileirao() {
-  let colocacao = 1;
   const [times, setTimes] = useState([]);
 
   useEffect(() => {
@@ -51,16 +50,16 @@ export function TabelaBrasileirao() {
         </TableRow>
       </TableHead>
       <TableBody>
-        {times.map((time) => (
+        {times.map((time, index) => (
           <TableRow key={time.nome} padding="">
             <TableCell sx={{ display: "flex", alignItems: "center" }}>
               <Typography
                 fontSize="17px"
                 fontWeight="400"
                 lineHeight="22px"
-                color={getColor(colocacao)}
+                color={getColor(index + 1)}
               >
-                {colocacao++}&nbsp;
+                {index + 1}&nbsp;
               </Typography>
               <Typography
                 sx={{

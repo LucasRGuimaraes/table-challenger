@@ -10,7 +10,6 @@ import { useEffect, useState } from "react";
 import { api } from "../services/api";
 
 export function TabelaDesafioResolvido() {
-  let colocacao = 1;
   const [times, setTimes] = useState([]);
 
   useEffect(() => {
@@ -37,10 +36,10 @@ export function TabelaDesafioResolvido() {
         </TableRow>
       </TableHead>
       <TableBody>
-        {times.map((time) => (
+        {times.map((time, index) => (
           <TableRow key={time.nome}>
             <TableCell sx={{ display: "flex" }}>
-              <Typography>{colocacao++}</Typography>
+              <Typography>{index + 1}</Typography>
               <Typography>{time.nome}</Typography>
             </TableCell>
             <TableCell>
