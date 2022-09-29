@@ -1,7 +1,15 @@
-import { Table } from "@mui/material";
+import {
+  Box,
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableRow,
+} from "@mui/material";
+import { useEffect, useState } from "react";
+import { api } from "../services/api";
 
 export function TabelaDesafio() {
-  let colocacao = 1;
   const [times, setTimes] = useState([]);
 
   /* 
@@ -20,7 +28,30 @@ export function TabelaDesafio() {
   }, []);
 
   // Return é parte do componente para inserimos o HTML que queremos renderizar na tela.
-  return {
-    /* Faça a tabela aqui */
-  };
+  return (
+    <Table>
+      <TableHead>
+        <TableRow>
+          <TableCell />
+          <TableCell>Time</TableCell>
+          <TableCell>Pontos</TableCell>
+          <TableCell>Vitórias</TableCell>
+          <TableCell>Empates</TableCell>
+          <TableCell>Derrotas</TableCell>
+        </TableRow>
+      </TableHead>
+      <TableBody>
+        {times.map((time, index) => (
+          <TableRow>
+            <TableCell>{index + 1}</TableCell>
+            <TableCell>{time.nome}</TableCell>
+            <TableCell>{time.pontos}</TableCell>
+            <TableCell>{time.vitorias}</TableCell>
+            <TableCell>{time.empates}</TableCell>
+            <TableCell>{time.derrotas}</TableCell>
+          </TableRow>
+        ))}
+      </TableBody>
+    </Table>
+  );
 }
