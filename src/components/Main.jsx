@@ -22,9 +22,9 @@ export function Main() {
         >
           TABELA
         </Typography>
-        {/* <TabelaBrasileirao /> */}
+        <TabelaBrasileirao />
         {/* <TabelaDesafioResolvido /> */}
-        <TabelaDesafio />
+        {/* <TabelaDesafio /> */}
       </Box>
     </Box>
   );
