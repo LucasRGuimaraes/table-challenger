@@ -3,7 +3,8 @@ import {
   TableBody,
   TableCell,
   TableHead,
-  TableRow, Typography
+  TableRow,
+  Typography,
 } from "@mui/material";
 import { useEffect, useState } from "react";
 import { api } from "../services/api";
@@ -36,6 +37,7 @@ export function TabelaBrasileirao() {
       return "#FE2F00";
     }
   }
+
   return (
     <Table sx={{ minWidth: "600px", borderBlock: 0 }}>
       <TableHead sx={{ borderTop: "solid 1px #DDDDDD" }}>
@@ -49,46 +51,44 @@ export function TabelaBrasileirao() {
         </TableRow>
       </TableHead>
       <TableBody>
-        {times.map((time) => {
-          return (
-            <TableRow key={time.nome} padding="">
-              <TableCell sx={{ display: "flex", alignItems: "center" }}>
-                <Typography
-                  fontSize="17px"
-                  fontWeight="400"
-                  lineHeight="22px"
-                  color={getColor(colocacao)}
-                >
-                  {colocacao++}&nbsp;
-                </Typography>
-                <Typography
-                  sx={{
-                    color: "#333333",
-                  }}
-                >
-                  {time.nome}
-                </Typography>
-              </TableCell>
-              <TableCell align="center" bgcolor="#F5F5F5" width="30px">
-                <Typography fontWeight="700" fontSize="14px" lineHeight="14px">
-                  {time.pontos}
-                </Typography>
-              </TableCell>
-              <TableCell align="center" width="30px">
-                {time.jogos}
-              </TableCell>
-              <TableCell align="center" bgcolor="#F5F5F5" width="30px">
-                {time.vitorias}
-              </TableCell>
-              <TableCell align="center" width="30px">
-                {time.empates}
-              </TableCell>
-              <TableCell align="center" bgcolor="#F5F5F5" width="30px">
-                {time.derrotas}
-              </TableCell>
-            </TableRow>
-          );
-        })}
+        {times.map((time) => (
+          <TableRow key={time.nome} padding="">
+            <TableCell sx={{ display: "flex", alignItems: "center" }}>
+              <Typography
+                fontSize="17px"
+                fontWeight="400"
+                lineHeight="22px"
+                color={getColor(colocacao)}
+              >
+                {colocacao++}&nbsp;
+              </Typography>
+              <Typography
+                sx={{
+                  color: "#333333",
+                }}
+              >
+                {time.nome}
+              </Typography>
+            </TableCell>
+            <TableCell align="center" bgcolor="#F5F5F5" width="30px">
+              <Typography fontWeight="700" fontSize="14px" lineHeight="14px">
+                {time.pontos}
+              </Typography>
+            </TableCell>
+            <TableCell align="center" width="30px">
+              {time.jogos}
+            </TableCell>
+            <TableCell align="center" bgcolor="#F5F5F5" width="30px">
+              {time.vitorias}
+            </TableCell>
+            <TableCell align="center" width="30px">
+              {time.empates}
+            </TableCell>
+            <TableCell align="center" bgcolor="#F5F5F5" width="30px">
+              {time.derrotas}
+            </TableCell>
+          </TableRow>
+        ))}
       </TableBody>
     </Table>
   );

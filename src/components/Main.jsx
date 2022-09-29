@@ -1,5 +1,7 @@
 import { Box, Typography } from "@mui/material";
 import { TabelaBrasileirao } from "./TabelaBrasileirao";
+import { TabelaDesafio } from "./TabelaDesafio";
+import { TabelaDesafioResolvido } from "./TabelaDesafioResolvido";
 
 export function Main() {
   return (
@@ -20,7 +22,9 @@ export function Main() {
         >
           TABELA
         </Typography>
-        <TabelaBrasileirao />
+        {/* <TabelaBrasileirao /> */}
+        <TabelaDesafioResolvido />
+        <TabelaDesafio />
       </Box>
     </Box>
   );
